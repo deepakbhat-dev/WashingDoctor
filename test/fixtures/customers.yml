@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_name: MyString
+  phone_number: MyString
+  wash_number: 1
+
+two:
+  full_name: MyString
+  phone_number: MyString
+  wash_number: 1

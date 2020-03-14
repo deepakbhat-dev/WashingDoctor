@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  car_name: MyString
+  registration_number: MyString
+  size: MyString
+  wash_number: 1
+
+two:
+  car_name: MyString
+  registration_number: MyString
+  size: MyString
+  wash_number: 1
