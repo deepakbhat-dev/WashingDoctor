@@ -5,4 +5,16 @@ Rails.application.routes.draw do
 
   root 'pages#home'
   get '/services', to: 'pages#services', as: 'services'
+
+  namespace :api do
+    namespace :v1 do
+      resources :frontend do
+        member do
+          get :car_size
+          get :service_type
+          post :price
+        end
+      end
+    end
+  end
 end
