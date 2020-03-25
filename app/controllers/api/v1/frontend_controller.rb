@@ -14,8 +14,8 @@ class Api::V1::FrontendController < Api::V1::BaseController
   end
 
   def price
-    price = Service.where(service_name: params[:service_name], car_size: params[:car_size]).select(:price)
-    render json: price
+    price = Service.where(service_name: params[:service_name], car_size: params[:car_size]).select(:id, :price)
+    render json: price[0]
   end
 
   private
