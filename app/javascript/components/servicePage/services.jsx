@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from "../common/header";
+import User from '../homePage/customerDetails';
+
 
 class Services extends React.Component {
     render () {
